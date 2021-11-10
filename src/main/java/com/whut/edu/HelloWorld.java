@@ -19,4 +19,8 @@ public class HelloWorld {
     public int sayInt(){
         return 1;
     }
+    @RequestMapping("/china")
+    public String say(){
+        return "你好！中国";
+    }
 }
